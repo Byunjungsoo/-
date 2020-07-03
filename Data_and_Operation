@@ -1,0 +1,14 @@
+public class HelloWorldApp{
+	public static void  main(String[] args) {
+		System.out.println(6); // number 단순히 숫자를 나타낼때
+		System.out.println("six"); // string 문자를 나타낼때 "" 이안에 문자 
+		System.out.println("6"); // "" 안에 숫자가 있으면 컴퓨터는 string으로 처리 그러므로 컴퓨터는 문자 6으로나타 string6
+		
+		// ex
+		System.out.println(6+6); //12 여기서는 + 가 더하기 연산자로 작용
+		System.out.println("6+6"); // 6+6
+		System.out.println("6"+"6"); //66 여기서는 + 가 결합 연산자로 작용
+		
+		System.out.println("111".length()); // .length 문자열 길이를 나타냄 111경우는 3 1111 경우는 4처럼
+	}
+}
