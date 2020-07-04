@@ -1,0 +1,26 @@
+// StringApp 이라고 클래스 이름으로 만든 이유는 String만 쓰면 충돌이 일어날수있기 때문에
+// title 문자열의 표현
+
+
+public class StringApp {
+
+	public static void main(String[] args) {
+		
+		// 큰 따옴표("")와 작은 따옴표('') 차이
+	// string vs character
+		System.out.println("hello world"); //string 문자열 그대로 나타남 "" 이거는
+		//System.out.println('hello world');  // '' character 를 나타냄 ,character는 한 글자를 나타낸다
+		System.out.println('H'); //이거는 문자 // 예시 즉, string은 큰 개념으로 character 모임 그리고 character 원소개
+		System.out.println("H"); // 이거는 문자열
+		
+		// \n(new line) 줄바꿈
+		System.out.println("hello \nworld"); // \n은 줄 바꿈으로 나타내준
+		
+		// \를 활용한 ""를 문자열로 인식하게 만들기
+		// escape
+		System.out.println("hello \"world\""); // \"(내용)\"
+		// System.out.println("hello \"world"\"); \""\ 잘못된 표
+		
+	}
+
+}
