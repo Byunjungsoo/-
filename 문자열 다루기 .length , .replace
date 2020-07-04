@@ -1,0 +1,15 @@
+// 문자열 다루기
+public class StringOperation {
+
+	public static void main(String[] args) {
+		// .length()  ""안에 있는 문자열 갯수를 나타내
+		System.out.println("hello world".length()); // 여기서는 공백도 1로 쳐줌  hello world는 문자는 10개이지만 중간에 공백까지 갯수로 나타내서 11
+		
+		
+		
+		//.replace() 대체를 나타내는
+		System.out.println("hello (name)..bye".replace("(name)", "jjj"));
+		//.replace("oldChar", "newChar")    old에는 바꿔줄 위치 문자를 new에는 바꿔줄 내용
+	}
+
+}
