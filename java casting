@@ -26,7 +26,8 @@ public class Casting {
 	System.out.println(d);
 	
 	
-	// 1 to string                  구글링으로 검색    1을 숫자가 아닌 문자열로 나타내는     int to String 구글링   정수를 문자열로
+	// 1 to string                  구글링으로 검색    1을 숫자가 아닌 문자열로 나타내는     
+	//  기존에 String f = 1; 은 잘못된 코드로 구글링 검색으로 int to String    정수를 문자열로  나타낼수있게하는  String f = Integer.toString(1);
 	
 	String f = Integer.toString(1);
 	System.out.println(f);
