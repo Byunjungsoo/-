@@ -28,7 +28,7 @@ public class Variable {
 
 
 
-
+꼭 String a = ""    ----> " " 잊지말고
 
 //          data type 변수정의 
 //        number --> integer - int       int name = X;       표기방법     
