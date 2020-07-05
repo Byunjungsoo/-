@@ -1,0 +1,16 @@
+// 변수의 효용
+
+public class Letter {
+
+	public static void main(String[] args) {
+  
+		String name = "dee";
+		System.out.println("Hello, "+name+" ... "+name+"...lee..bye");
+				// "+name+"   여기서 +는 문자열 결합을 위해서 사
+		double VAT = 10.0;
+		System.out.println(VAT);
+		
+		
+	}
+
+}
