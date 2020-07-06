@@ -1,0 +1,41 @@
+
+import org.opentutorials.iot.Elevator;
+import org.opentutorials.iot.Security;
+import org.opentutorials.iot.Lighting;
+
+public class OkJavaGoInHome {
+
+	public static void main(String[] args) {
+		 
+		String id = "JAVA APT 507";
+		
+		//순서
+		// String id 적용           java apt 507를 계속 작성하기 불편하니
+		// Elevator call
+		Elevator myElevator = new Elevator(id);
+		//Elevator(data type) my Elevator(변수)
+		myElevator.callForUp(1);
+		// 엘리베이터에 나 올라가는데 1층으로 엘베 보내 명령
+		
+		// Security off
+		Security mySecurity = new Security(id);
+		mySecurity.off();
+		//Security. 이런걸  method
+		
+		// Light on
+		Lighting hallLamp = new Lighting(id+ " / Hall Lamp");
+		hallLamp.on();
+		// id+ 는 String id 와 "  /hall lamp " 결합하기위
+		
+		Lighting floorLamp = new Lighting("JAVA APT 507 / floor Lamp");
+		floorLamp.on();
+      
+		// debug   1. step over -> 명령어 하나를 실행
+		//        2. 원하는 지점에 브레이크 포인트 찍고  resume ㅌ버튼 누르면 그 구간까지 한번에실
+		//        3. step into ----> method가 어떻게 생겼는지 알려		
+       //      4.step return ---->  into 상황에서 뒤로가기
+		
+		
+		// debug 문제 파악에 용
+		}
+}
