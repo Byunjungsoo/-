@@ -1,0 +1,53 @@
+// 입력과 출력
+// input ------> program -----> output 
+
+  
+ // id 값을 사용자가 입력하는 텍스트 값에따라 출력되는 상황 만들기
+//  구글링!!!!!    java popup text input swing(특정기술이름)
+//  String path = JOptionPane.showInputDialog("Enter a path");   팝업창 상자   
+//  JOptionPane  읽어오기
+// 밝기 조절 램프
+// ID 입력할때 밝기값도 같이 입력
+// set bright - double문구 구글링    java string to double conversion
+
+
+import javax.swing.JOptionPane;
+
+import org.opentutorials.iot.DimmingLights;
+import org.opentutorials.iot.Elevator;
+import org.opentutorials.iot.Security;
+import org.opentutorials.iot.Lighting;
+
+public class OkJavaGoInHomeinput {
+
+	public static void main(String[] args) {
+		 
+		String id = JOptionPane.showInputDialog("Enter a ID");
+		String bright = JOptionPane.showInputDialog("Enter a bright level");
+		//순서
+		// String id 적용           java apt 507를 계속 작성하기 불편하니
+		// Elevator call
+		Elevator myElevator = new Elevator(id);
+		//Elevator(data type) my Elevator(변수)
+		myElevator.callForUp(1);
+		// 엘리베이터에 나 올라가는데 1층으로 엘베 보내 명령
+		
+		// Security off
+		Security mySecurity = new Security(id);
+		mySecurity.off();
+		//Security. 이런걸  method
+		
+		// Light on
+		Lighting hallLamp = new Lighting(id+ " / Hall Lamp");
+		hallLamp.on();
+		// id+ 는 String id 와 "  /hall lamp " 결합하기위
+		
+		Lighting floorLamp = new Lighting("JAVA APT 507 / floor Lamp");
+		floorLamp.on();
+      
+		DimmingLights moodLamp = new DimmingLights(id+ " moodLamp");
+		moodLamp.setBright(Double.parseDouble(bright));
+		moodLamp.on();
+		
+		}
+}
