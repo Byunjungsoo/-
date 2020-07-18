@@ -1,0 +1,19 @@
+hello web
+hypertext markup language (html) is the standard  markupp languge for <strong>creating <u>web</u> pages</strong>
+
+<p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+
+<p>1</p> fgfgfg<p>2</p>
+홈짱닷컴의<br>
+홈페이지 제작강좌는
+아주 쉽습니다.
+
+<p> 문단 태그</p>
+<p>첫번째 문단(paragraph)</p>
+<p>두번째 문단(paragraph)</p>
+
+
+강제 줄바꿈을 할때는 <br> 태그
+홈짱닷컴의<br>
+홈페이지 제작강좌는<br>
+아주 쉽습니다.
