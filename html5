@@ -1,0 +1,28 @@
+hello web<br>
+tag - parent,child 알아보기<br>
+<h4>목차 만들어보기</h4>
+
+<ul>
+    <li>1.html</li>
+    <li>2.css</li>
+    <li>3.java</li>
+</ul>
+
+<ul>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+</ul>
+
+ul-부모태그
+li- 자식태그
+
+<ol>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+</ol>
+
+ol은 넘버링 order list
+ul- unordered list
+li - list
